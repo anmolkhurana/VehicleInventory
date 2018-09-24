@@ -41,7 +41,7 @@ $ curl --request DELETE http://localhost:6161/accionlabs-vehicle-service/vehicle
 7) Search based on type
 Method: GET
 ```
-$ curl http://localhost:6161/accionlabs-vehicle-service/vehicleInventory/searchVehicleOnType?searchQuery="b"
+$ curl -X GET http://localhost:6161/accionlabs-vehicle-service/vehicleInventory/searchVehicleOnType?searchQuery="boat" 
 ```
 
 
